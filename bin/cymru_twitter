@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'team-cymru'
+
+c = Cymru::Twitter.new
+c.message.each do |msg|
+	puts msg[0]
+	puts msg[1]
+	puts
+end
