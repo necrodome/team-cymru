@@ -2,21 +2,21 @@
 
 The team-cymru gem connects to several of Team Cymru's public services: bogon lists, IP to ASN mappings, and malware hash checking.
 
-c = Cymru::ASNClient.new
-res = c.lookup("130.207.244.251").to_s => "2637    | 130.207.244.251  | 130.207.0.0/16      | US | arin     | 1988-10-10 |  | GEORGIA-TECH - Georgia Institute of Technology"
+	c = Cymru::ASNClient.new
+	res = c.lookup("130.207.244.251").to_s => "2637    | 130.207.244.251  | 130.207.0.0/16      | US | arin     | 1988-10-10 |  | GEORGIA-TECH - Georgia Institute of Technology"
 
-c = Cymru::Bogon.new
-c.bogon?("127.0.4.1") => true
+	c = Cymru::Bogon.new
+	c.bogon?("127.0.4.1") => true
 
-c = Cymru::Malware.new
-c.lookup("cbed16069043a0bf3c92fff9a99cccdc") => MalwareResult instance, .hash will be the hash, .timestamp will be the result time, and .percent_detect will be the percent of AV that detects the sample
+	c = Cymru::Malware.new
+	c.lookup("cbed16069043a0bf3c92fff9a99cccdc") => MalwareResult instance, .hash will be the hash, .timestamp will be the result time, and .percent_detect will be the percent of AV that detects the sample
 
-c = Cymru::TwitterFeed.new
-c.messages.each do |date, tweet|
-	puts date
-	puts tweet
-	puts
-end
+	c = Cymru::TwitterFeed.new
+	c.messages.each do |date, tweet|
+		puts date
+		puts tweet
+		puts
+	end
 
 == Contributing to team-cymru
  
