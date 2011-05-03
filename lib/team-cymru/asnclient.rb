@@ -1,5 +1,6 @@
 require 'ipaddr'
 require 'cache' # gem's name is ruby-cache
+require 'structformatter'
 
 module Cymru
 	class ASNRecord < Struct.new(:asn, :ip, :cidr, :cc, :nic, :alloc, :data, :org)

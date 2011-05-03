@@ -32,6 +32,7 @@ class TestTeamCymru < Test::Unit::TestCase
 	
 	should "display twitter feed" do
 		c = Cymru::TwitterFeed.new
-		assert_equal(["Thu Mar 10 18:45:47 +0000 2011", "\"There are curious eyes everywhere\" encryption poster,details:http://bit.ly/erNFKE http://twitpic.com/487f2p"], c.messages[0])
+		assert_equal(["Mon May 02 22:03:41 +0000 2011",
+		 "36k daily #ssh guesses a day on @DragonResearch listening tcp/22 pod ports, amazing insight:http://bit.ly/lajxV6"], c.messages[0])
 	end
 end
