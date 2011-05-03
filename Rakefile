@@ -19,8 +19,8 @@ Jeweler::Tasks.new do |gem|
 	gem.description = %Q{ruby library and tools that query Cymru's ASN, Malware, and FullBogon services}
 	gem.email = "rubygems@chrislee.dhs.org"
 	gem.authors = ["Chris Lee"]
-	gem.signing_key = "#{ENV['HOME']}/Document/projects/rubygems/gem-private_key.pem"
-	gem.cert_chain  = ["#{ENV['HOME']}/Document/projects/rubygems/gem-public_cert.pem"]
+	gem.signing_key = "#{ENV['HOME']}/Documents/projects/rubygems/gem-private_key.pem"
+	gem.cert_chain  = ["#{ENV['HOME']}/Documents/projects/rubygems/gem-public_cert.pem"]
 	gem.files = FileList["{bin,lib}/**/*"].to_a
 	gem.executables = ["cymru_asn", "cymru_bogon", "cymru_malware", "cymru_twitter"]
 	# Include your dependencies below. Runtime dependencies are required when using your gem,

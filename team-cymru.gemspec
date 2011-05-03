@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Lee"]
-  s.cert_chain = ["/Users/chris/Document/projects/rubygems/gem-public_cert.pem"]
+  s.cert_chain = ["/Users/chris/Documents/projects/rubygems/gem-public_cert.pem"]
   s.date = %q{2011-05-03}
   s.description = %q{ruby library and tools that query Cymru's ASN, Malware, and FullBogon services}
   s.email = %q{rubygems@chrislee.dhs.org}
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
-  s.signing_key = %q{/Users/chris/Document/projects/rubygems/gem-private_key.pem}
+  s.signing_key = %q{/Users/chris/Documents/projects/rubygems/gem-private_key.pem}
   s.summary = %q{queries Cymru's ASN, Malware, and FullBogon services}
   s.test_files = [
     "test/helper.rb",
