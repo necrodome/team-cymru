@@ -4,15 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{team-cymru}
+  s.name = "team-cymru"
   s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Lee"]
-  s.cert_chain = ["/Users/chris/Documents/projects/rubygems/gem-public_cert.pem"]
-  s.date = %q{2011-05-03}
-  s.description = %q{ruby library and tools that query Cymru's ASN, Malware, and FullBogon services}
-  s.email = %q{rubygems@chrislee.dhs.org}
+  s.date = "2012-07-29"
+  s.description = "ruby library and tools that query Cymru's ASN, Malware, and FullBogon services"
+  s.email = "rubygems@chrislee.dhs.org"
   s.executables = ["cymru_asn", "cymru_bogon", "cymru_malware", "cymru_twitter"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,15 +26,15 @@ Gem::Specification.new do |s|
     "lib/team-cymru/asnclient.rb",
     "lib/team-cymru/bogon.rb",
     "lib/team-cymru/malware.rb",
+    "lib/team-cymru/require_relative.rb",
     "lib/team-cymru/structformatter.rb",
     "lib/team-cymru/twitterfeed.rb"
   ]
-  s.homepage = %q{http://github.com/chrislee35/team-cymru}
+  s.homepage = "http://github.com/chrislee35/team-cymru"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
-  s.signing_key = %q{/Users/chris/Documents/projects/rubygems/gem-private_key.pem}
-  s.summary = %q{queries Cymru's ASN, Malware, and FullBogon services}
+  s.rubygems_version = "1.8.22"
+  s.summary = "queries Cymru's ASN, Malware, and FullBogon services"
   s.test_files = [
     "test/helper.rb",
     "test/test_team-cymru.rb"
